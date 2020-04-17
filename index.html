@@ -1,16 +1,16 @@
 <html>
 	<head>
 		<title>Portofolio - Edi Dwi Nugroho</title>
-		<link href="assets/css/tailwind/tailwind.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">	
 		<link href="assets/css/bulma/bulma.min.css" rel="stylesheet">
 		<link href="assets/css/bulma/bulma.css" rel="stylesheet">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 	</head>
 	<body>
-		<section class="hero is-white">
+		<section class="hero is-white" id="about">
 			<div class="hero-head">
-				<nav class="navbar">
+				<nav class="navbar is-fixed-top has-background-white-ter">
 					<div class="container">
 						<!-- <div class="navbar-brand">
 							<a class="navbar-item">
@@ -20,15 +20,16 @@
 						</div> -->
 						<div id="navbarMenuHeroB" class="navbar-menu">
 							<div class="navbar-end">
-								<a class="navbar-item">About</a>
+								<a href="#about" class="navbar-item">About</a>
 								<a href="#skils" class="navbar-item">Skils</a>
+								<a href="#product" class="navbar-item">Product</a>
 								<a href="#contact" class="navbar-item">Contact</a>
 							</div>
 						</div>
 					</div>
 				</nav>
 			</div>
-
+			<br><br><br><br><br>
 			<div class="hero-body is-flex">
 				<div class="container is-fluid">
 					<p class="title is-size-1">Hi, I'm Edi Dwi Nugroho</p>
@@ -62,7 +63,7 @@
 							</a>
 						</p>
 						<p class="control">
-							<a href="resume.jpg" class="button">
+							<a href="resume.pdf" target="_blank" class="button">
 								My Resume
 							</a>
 						</p>
@@ -105,6 +106,67 @@
 							</p>
 						</div>
 						<p class="subtitle">I am very interested in the things above. now I am focused in that field.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section" id="product">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<center><p class="title is-size-1">What Ever I Made</p></center><br>
+						<div class="columns is-mobile">
+							<div class="column">
+								<div class="card">
+									<div class="card-image">
+										<figure class="image">
+											<img src="assets/image/lancelotn.png" alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="card-content">
+										<div class="media">
+											<div class="media-content">
+												<p class="title is-4">Lancelot</p>
+												<p class="subtitle is-6">lancelot is one of my projects, Lancelot is a website for auction electronic goods. in that project I work on the front end and back end. the technology used to develop it is codeigniter with css framework uikit</p>
+											</div>
+										</div>
+
+										<!-- <footer class="card-footer">
+											<p class="card-footer-item">
+												<span>
+													View on <a href="https://github.com/edinugroho/lancelot">Github</a>
+												</span>
+											</p>
+										</footer> -->
+									</div>
+								</div>
+							</div>
+							<div class="column">
+								<div class="card">
+									<div class="card-image">
+										<figure class="image">
+											<img src="assets/image/ultrasn.png" alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="card-content">
+										<div class="media">
+											<div class="media-content">
+												<p class="title is-4">Ultras Informatics Webstore</p>
+												<p class="subtitle is-6">Ultras Informatics Webstore is a website build with wordpress and use woocomerce plugin. In this project i develop with my team, in there i focused in design and layouting</p>
+											</div>
+										</div>
+
+										<!-- <footer class="card-footer">
+											<p class="card-footer-item">
+												<span>
+													View on <a href="https://github.com/edinugroho/lancelot">Github</a>
+												</span>
+											</p>
+										</footer> -->
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
